@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learn More</title>
+</head>
+<body>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/-OFmUZ-eH1Y" frameborder="0" allow="autoplay;  encrypted-media" allowfullscreen autoplay></iframe>
+    <form action="/action_page.php" method="post">
+        <fieldset>
+            <legend>Personal information:</legend>
+            First name:<br>
+            <input type="text" name="firstname" value="Mickey">
+            <br>
+            Last name:<br>
+            <input type="text" name="lastname" value="Mouse">
+            <br>Gender:<br>
+            <input type="radio" name="gender" value="male" checked> Male<br>
+            <input type="radio" name="gender" value="female"> Female<br>
+            <input type="radio" name="gender" value="other"> Other
+            <br>Favourite Food: <br>
+            <select name="Favourite Food">
+                <option value="volvo">Pasta</option>
+                <option value="saab">Pizza</option>
+                <option value="fiat">Sushi</option>
+                <option value="audi">Steak with chips</option>
+            </select><br>Hobbies:<br>
+            <input type="checkbox" name="vehicle1" value="Sports"> Sports<br>
+            <input type="checkbox" name="vehicle2" value="IT"> IT<br>
+            <input type="checkbox" name="vehicle1" value="Reading">Reading<br>
+            <input type="checkbox" name="vehicle2" value="Being lazy">Laziness<br>
+            <br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+            <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+        </fieldset>
+    </form>
+</body>
+</html>
